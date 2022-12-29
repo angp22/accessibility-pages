@@ -134,7 +134,7 @@ form.wufoo {
 
 #header:before {
   background: url("https://www.nongmoproject.org/wp-content/uploads/NonGMO-Project-GMO-food-verification-logo-orange-copy.png") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   content: "";
   left: 0;
   max-width: none;
