@@ -104,7 +104,7 @@ form.wufoo {
 /* Logo */
 
 #logo a {
-  background-image:url('https://raw.githubusercontent.com/codeforamerica/codeforamerica.org/master/assets/logo.png'); 
+  background-image:url('https://www.nongmoproject.org/wp-content/uploads/NonGMO-Project-GMO-food-verification-logo-orange-300x142.png'); 
   background-size: 90px;
   margin-left: 20px;
 }
@@ -136,7 +136,7 @@ form.wufoo {
 /* Header */
 
 #header:before {
-  background: url("http://www.codeforamerica.org/media/images/about/about_header.jpg") center center no-repeat;
+  background: url("https://www.nongmoproject.org/wp-content/uploads/NonGMO-Project-GMO-food-verification-logo-orange-copy.png") center center no-repeat;
   background-size: cover;
   content: "";
   left: 0;
@@ -153,7 +153,7 @@ form.wufoo {
   position: relative;
   overflow: hidden;
   color: white;
-  background-color: #000;
+  background-color: #fff;
   min-height: 350px;
   width: 100%;
   margin: 0;
@@ -181,6 +181,7 @@ form.wufoo {
   letter-spacing: -3px;
   line-height: 60px;
   /*text-transform: uppercase;*/
+  display: none;
 
   padding-top: 100px;
 }
@@ -289,7 +290,7 @@ form li.focused {
 
 .wufoo .section h3 {
   font-size:130%;
-  font-family:inherit;
+  font-family:'Quicksand', inherit;
   background:#FFFFFF;
   color:#000000;
   font-weight: 900;
@@ -299,14 +300,14 @@ form li.focused {
 
 .wufoo .section div {
   font-size:85%;
-  font-family:inherit;
+  font-family: 'Lora', inherit;
   color:#444444;
 }
 
 .wufoo label.desc, 
 .wufoo legend.desc {
 /*  margin-top: 10px;
-*/  font-family:inherit;
+*/  font-family:'Quicksand', inherit;
   font-weight: 600;
   color:#444444;
   font-family: "Quicksand", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
@@ -336,7 +337,7 @@ form li.focused {
 .wufoo select.select, 
 .wufoo label.choice {
   font-size:100%;
-  font-family:inherit;
+  font-family: 'Lora', inherit;
   color:#333333;
 }
 
@@ -346,7 +347,7 @@ form li.focused {
 
 .wufoo .instruct{
   font-size:80%;
-  font-family:inherit;
+  font-family:'Lora', inherit;
   color:#444444;
   z-index: 2;
 }
@@ -526,7 +527,7 @@ input.btTxt.submit {
   -moz-box-sizing: content-box;
   -webit-box-sizing: content-box;
   box-sizing: content-box;
-  background-color: #399fd3;
+  background-color: #2A5135;
   border-radius: 4px;
   border: none;
   color: white;
@@ -549,7 +550,7 @@ input.btTxt.submit {
 }
 
 input.btTxt.submit:hover {
-    background-color: #7ab5d6;
+    background-color: #2A5135;
     cursor: pointer;
 }
 
