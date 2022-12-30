@@ -208,6 +208,11 @@ form.wufoo {
   #header div {
     font-size: 15px;
   }
+
+  /* NEW */
+  #header:before{
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -218,6 +223,10 @@ form.wufoo {
     font-size: 40px;
     line-height: 42px;
     padding-top: 40px;
+  }
+  /* NEW */
+  #header:before{
+    background-size: cover;
   }
 }
 
