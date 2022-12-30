@@ -211,7 +211,8 @@ form.wufoo {
 
   /* NEW */
   #header:before{
-    background-size: cover;
+    /* 100px height image */
+    background: url(https://www.nongmoproject.org/wp-content/uploads/NonGMO-Project-GMO-food-verification-logo-orange-100.png) center center no-repeat;
   }
 }
 
@@ -226,7 +227,8 @@ form.wufoo {
   }
   /* NEW */
   #header:before{
-    background-size: cover;
+    /* 100px height image */
+    background: url(https://www.nongmoproject.org/wp-content/uploads/NonGMO-Project-GMO-food-verification-logo-orange-100.png) center center no-repeat;
   }
 }
 
